@@ -1,0 +1,51 @@
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+    grid-gap: 0px; /* Reduced space between cards */
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Adjusted padding around the grid */
+    background-color: #ea8e8e; /* Light pink background */
+    min-height: 93vh; /* Full page height */
+    box-sizing: border-box; /* Include padding and border in size */
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 15px; /* Smooth rounded corners */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Content stays inside the card */
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 300px; /* Increased card width */
+    height: 400px; /* Increased card height */
+    margin: auto; /* Center cards in their grid cells */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Elevated shadow */
+}
+
+.product-image {
+    width: 100%;
+    height: 75%; /* Image takes up more space in the card */
+    object-fit: cover; /* Ensure image fits proportionally */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.1); /* Zoom in image on hover */
+}
+
+.product-card h2 {
+    margin: 10px 0;
+    font-size: 1.5rem; /* Adjusted title size */
+    color: #333;
+}
+
+.product-card .price {
+    font-size: 1.3rem; /* Adjusted price size */
+    color: #555;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,20 @@
+.timer {
+    background: rgb(55, 97, 135);;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.time-display {
+    font-size: 2em;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #feffff;
+}
+
+.timer button {
+    margin: 0 5px;
+    padding: 8px 16px;
+}

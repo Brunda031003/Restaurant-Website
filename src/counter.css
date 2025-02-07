@@ -1,0 +1,37 @@
+.counter {
+     background-color: rgb(55, 97, 135);
+     border-radius: 40px;
+     width: 1250px; /* Smaller width for the Welcome box */
+     padding: 30px; /* Adjust padding to fit the smaller size */
+     margin: 10px auto;
+     text-align: center;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+     
+}
+
+.counter-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button{
+    background-color: rgb(81, 156, 227);
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: rgb(109, 109, 182);
+}
+
+.count {
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 50px;
+}

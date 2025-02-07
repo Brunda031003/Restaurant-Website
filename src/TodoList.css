@@ -1,0 +1,43 @@
+.todo-list {
+    background: rgb(55, 97, 135);
+    border-radius: 40px;
+    width: 1650px; /* Smaller width for the Welcome box */
+    padding: 30px; /* Adjust padding to fit the smaller size */
+    margin: 10px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.add-todo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.add-todo input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 5px 0;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 5px;
+}

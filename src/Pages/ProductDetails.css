@@ -1,0 +1,58 @@
+.productd-detail-page {
+    padding: 20px;
+    background-color: #ffe4e1;  /* Optional: Light pink background  */
+    min-height: 93vh;
+    box-sizing: border-box;
+}
+
+.backd-button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.backd-button:hover {
+    background-color: #e25550;
+}
+
+.productd-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ff6f61;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.productd-image {
+    flex: 1;
+    max-width: 50%;
+    height: 79vh;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the area */
+    width: 100%; /* Makes the image responsive */
+}
+
+.productd-info {
+    flex: 1;
+    text-align: left;
+}
+
+.productd-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.productd-info p {
+    font-size: 1.2rem;
+    color: white;
+}

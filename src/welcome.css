@@ -1,0 +1,22 @@
+.Welcome-box {
+    background-color: rgb(107, 138, 165);
+    border-radius: 40px;
+    width: 450px; /* Smaller width for the Welcome box */
+    padding: 30px; /* Adjust padding to fit the smaller size */
+    margin: 10px auto; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* body{
+    display: flex;
+    justify-content:center ;
+} */
+
+.Welcome-box h1 {
+    color: black;
+}
+
+.Welcome-box p {
+    color: black;
+}

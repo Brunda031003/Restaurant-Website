@@ -1,0 +1,13 @@
+.Status-box{
+    background-color: rgb(55, 97, 135);
+    border-radius: 40px;
+    width: 750px; /* Smaller width for the Welcome box */
+    padding: 30px; /* Adjust padding to fit the smaller size */
+    margin: 10px auto;
+    box-shadow: 0 2px 5px rgba(0, 0 , 0, 0.2);
+    text-align: center;
+}
+
+.Status-box p{
+    color: black;
+}

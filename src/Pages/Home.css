@@ -1,0 +1,41 @@
+.page {
+    position: relative;
+    height: 93vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.background {
+    background-image: url(../images/Background.jpeg); /* Replace with your image URL or local path */
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    position: absolute;
+    z-index: -1; /* Push the background behind the text */
+}
+
+.overlay-text {
+    color: black; /* Text color to contrast the background */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
+    font-size: 4rem; /* Adjust size as needed */
+    z-index: 1; /* Ensure the text is above the background */
+}
+.sub-text{
+    color: black; /* Text color to contrast the background */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
+    font-size: 2rem; /* Adjust size as needed */
+    z-index: 1; /* Ensure the text is above the background */
+}
+
+h1.overlay-text {
+    margin-bottom: 10px;
+}
+
+p.overlay-text {
+    margin-top: 0;
+}
